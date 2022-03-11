@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.tim-kiem{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(32, 32, 32);
+}
+.tim-kiem input{
+    background-color: rgb(46, 45, 45);
+    color: rgb(158, 154, 154);
+    float: right;
+    margin-top: 6px;
+    padding: 3px 10px;
+}
+.tim-kiem button{
+    background-color: rgb(46, 45, 45);
+    color: rgb(158, 154, 154);
+    padding: 3px;
+    margin-right: 10%;
+    margin-top: 6px;
+    float: right;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    width: 80%; 
+    font-size: 40px;
+    font-family: cursive;
+}
+.logo a{
+    color: red;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+}
+
+.contener{
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    background-color: rgb(172, 3, 3);
+}
+.contener ul{
+    padding-top: 8px;
+}
+ .contener ul li {
+     display: inline-block;
+ }
+.contener ul li a{
+    font-family: Arial,Helvetica,sans-serif;
+    padding-left: 30px;
+    color: rgb(196, 195, 195);
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+.main{
+    margin-top: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.main-left{
+    width: 20%;
+    padding-left: 1%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.main-left a{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    padding-left: 5%;
+}
+
+.main-right{
+    width: 80%;
+    float: left;
+}
+
+.danh-thiep{
+    padding: 10px 20px;
+    border: 3px solid red;
+    margin-bottom: 10px;
+}
+
+footer{
+    width: 100%;
+    clear: both;
+}
+
+.contener-ft{
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 35px;
+    background-color: rgb(172, 3, 3);
+}
+
+.contener-ft ul{
+    padding-top: 8px;
+}
+
+.contener-ft ul li{
+    display: inline-block;
+     padding-left: 10px;
+}
+
+.contener-ft ul li a{
+    font-family: Arial,Helvetica,sans-serif;
+    color: rgb(190, 190, 190);
+    padding: 10px;
+    text-decoration: none; 
+}
+
+.lien-he{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(46, 45, 45);
+    color: rgb(185, 182, 182);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.lien-he p a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(189, 188, 188);
+}
+
+.chung-chi{
+    width: 100%;
+    height: 50px;
+}
